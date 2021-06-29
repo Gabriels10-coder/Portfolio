@@ -1,23 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Routes from './components/routes/route';
 
-function App() {
+import {
+  createMuiTheme,
+  CssBaseline,
+  ThemeProvider
+} from '@material-ui/core';
+import { AnimateSharedLayout } from 'framer-motion';
+
+
+const theme = createMuiTheme({
+  typography: {
+    fontFamily: 'Roboto, Sans Serif',
+  },
+  palette: {
+    primary: {
+      main: '#fff'
+    },
+    secondary: {
+      main: '#1976d2'
+    }
+  },
+
+})
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <ThemeProvider theme={theme}>
+        <AnimateSharedLayout type='crossfade'>
+          <CssBaseline />
+          <Routes />
+        </AnimateSharedLayout>
+      </ThemeProvider>
+
     </div>
   );
 }
