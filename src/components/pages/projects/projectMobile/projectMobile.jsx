@@ -63,12 +63,13 @@ const ProjectsMobile = () => {
                     flexDirection='column'>
                     <div className={classes.containerSub}>
                         <Typography
+                        align='center'
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1, transition: { duration: 1, delay: 0.7 } }}
                             component={motion.div}
                             className={classes.fontsub}
                             >
-                            Veja todos projetos no repositório no Git Hub.
+                            Projetos disponiveis no GitHub
                         </Typography>
                         <motion.a align='center'
                             initial={{ opacity: 0 }}

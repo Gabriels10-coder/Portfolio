@@ -35,7 +35,7 @@ const useStyles = makeStyles({
     },
     divmainmobi: {
         marginTop: '50%',
-        marginLeft: '-30%',
+        marginLeft: '-14%',
     },
     buttonMobile: {
         textTransform: 'capitalize',
@@ -45,7 +45,7 @@ const useStyles = makeStyles({
     },
     divButtonMobile: {
         marginTop: '5%',
-        marginLeft: '-30%'
+        marginLeft: '-14%'
     },
     titleMobile: {
         width: '200px',
