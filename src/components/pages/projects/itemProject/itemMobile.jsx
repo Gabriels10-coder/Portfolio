@@ -9,7 +9,7 @@ import { motion } from 'framer-motion';
 const useStyles = makeStyles({
     paper: {
         width: 'max-content',
-        padding: ' 10px 12px',
+        padding: ' 10px',
         display: 'flex',
         justifyContent: 'center',
         boxShadow: '0px 3px 3px -2px #1976d2, 0px 3px 4px 0px #1976d2, 0px 1px 8px 0px #1976d2',
@@ -18,8 +18,8 @@ const useStyles = makeStyles({
     },
 
     imgProject: {
-        width: '320px',
-        height: '250px'
+        width: '305px',
+        height: '300px'
 
     },
     marginName: {

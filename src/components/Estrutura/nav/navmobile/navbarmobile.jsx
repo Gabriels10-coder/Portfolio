@@ -17,7 +17,7 @@ import { motion } from 'framer-motion';
 const useStyles = makeStyles({
     aba: {
         background: '#fff',
-        width: '300px',
+        width: '250px',
         height: '100%',
     },
     container: {
@@ -25,7 +25,7 @@ const useStyles = makeStyles({
         marginLeft:'30px'
     },
     listItemText: {
-        fontSize: '40px',
+        fontSize: '30px',
         color: '#1976d2',
     },
 
