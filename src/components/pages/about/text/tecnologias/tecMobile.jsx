@@ -17,8 +17,8 @@ const TecnologiaMobile = () => {
         <div>
             <div>
                 <Typography
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1, transition: { duration: 2, delay: 1.4 } }}
+                    initial={{ opacity: 0, scale: 0 }}
+                    animate={{ opacity: 1, scale: 1, transition: { duration: 1.2, delay: 1 } }}
                     component={motion.div}
                     variant='h6'
                     color='secondary'>
@@ -26,33 +26,41 @@ const TecnologiaMobile = () => {
                 </Typography>
             </div>
             <div className={classes.marginTitle}>
+                <Typography
+                    initial={{ opacity: 0, scale: 0 }}
+                    animate={{ opacity: 1, scale: 1, transition: { duration: 1.2, delay: 1 } }}
+                    component={motion.div}
+                    variant='body1'
+                    color='secondary'>
+                    Front End
+                </Typography>
                 <motion.img
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1, transition: { duration: 2, delay: 1.6 } }}
+                    initial={{ opacity: 0, scale: 0, rotate: 360 }}
+                    animate={{ opacity: 1, scale: 1, rotate: 0, transition: { duration: 1.2, delay: 1 } }}
                     className={classes.marginLogo}
                     width='15%'
                     src="https://img.icons8.com/ios/50/4a90e2/html-5--v1.png"
                     title='HTML'
                     alt='HTML' />
                 <motion.img
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1, transition: { duration: 2, delay: 1.8 } }}
+                    initial={{ opacity: 0, scale: 0, rotate: 360 }}
+                    animate={{ opacity: 1, scale: 1, rotate: 0, transition: { duration: 1.2, delay: 1 } }}
                     className={classes.marginLogo}
                     width='15%'
                     src="https://img.icons8.com/ios/50/4a90e2/css3.png"
                     title='CSS'
                     alt='CSS' />
                 <motion.img
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1, transition: { duration: 2, delay: 1.8 } }}
+                    initial={{ opacity: 0, scale: 0, rotate: 360 }}
+                    animate={{ opacity: 1, scale: 1, rotate: 0, transition: { duration: 1.2, delay: 1 } }}
                     className={classes.marginLogo}
                     width='15%'
                     src="https://img.icons8.com/ios/50/4a90e2/javascript-logo.png"
                     title='JavaScript'
                     alt='JavaScript' />
                 <motion.img
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1, transition: { duration: 2, delay: 2.0 } }}
+                    initial={{ opacity: 0, scale: 0, rotate: 360 }}
+                    animate={{ opacity: 1, scale: 1, rotate: 0, transition: { duration: 1.2, delay: 1 } }}
                     className={classes.marginLogo}
                     width='15%'
                     src="https://img.icons8.com/ios/50/4a90e2/react-native--v1.png"
@@ -61,30 +69,57 @@ const TecnologiaMobile = () => {
 
 
                 <motion.img
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1, transition: { duration: 2, delay: 2.2 } }}
+                    initial={{ opacity: 0, scale: 0, rotate: 360 }}
+                    animate={{ opacity: 1, scale: 1, rotate: 0, transition: { duration: 1.2, delay: 1 } }}
                     className={classes.marginLogo}
                     alt='Material-ui'
                     title='Material-ui'
                     width='15%'
                     src='https://seeklogo.com/images/M/material-ui-logo-88EC9AE3DB-seeklogo.com.png' />
                 <motion.img
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1, transition: { duration: 2, delay: 2.4 } }}
+                    initial={{ opacity: 0, scale: 0, rotate: 360 }}
+                    animate={{ opacity: 1, scale: 1, rotate: 0, transition: { duration: 1.2, delay: 1 } }}
                     className={classes.marginLogo}
                     alt='Bootstrap'
                     title='Bootstrap'
                     width='15%'
                     src="https://img.icons8.com/windows/32/4a90e2/bootstrap.png" />
 
-                <motion.img
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1, transition: { duration: 2, delay: 2.6 } }}
-                    className={classes.marginLogo}
-                    alt='NodeJS'
-                    title='NodeJS'
-                    width='15%'
-                    src="https://img.icons8.com/color/50/000000/nodejs.png" />
+
+                <div>
+                    <Typography
+                        initial={{ opacity: 0, scale: 0 }}
+                        animate={{ opacity: 1, scale: 1, transition: { duration: 1.2, delay: 1 } }}
+                        component={motion.div}
+                        variant='body1'
+                        color='secondary'>
+                        Back End
+                    </Typography>
+                    <motion.img
+                        initial={{ opacity: 0, scale: 0, rotate: 360 }}
+                        animate={{ opacity: 1, scale: 1, rotate: 0, transition: { duration: 1.2, delay: 1 } }}
+                        className={classes.marginLogo}
+                        alt='NodeJS'
+                        title='NodeJS'
+                        width='15%'
+                        src="https://img.icons8.com/color/50/000000/nodejs.png" />
+                    <motion.img
+                        initial={{ opacity: 0, scale: 0, rotate: 360 }}
+                        animate={{ opacity: 1, scale: 1, rotate: 0, transition: { duration: 1.2, delay: 1 } }}
+                        className={classes.marginLogo}
+                        alt='SQL'
+                        title='SQL'
+                        width='15%'
+                        src="https://img.icons8.com/dotty/80/4a90e2/sql.png" />
+                    <motion.img
+                        initial={{ opacity: 0, scale: 0, rotate: 360 }}
+                        animate={{ opacity: 1, scale: 1, rotate: 0, transition: { duration: 1.2, delay: 1 } }}
+                        className={classes.marginLogo}
+                        alt='ORACLE'
+                        title='ORACLE'
+                        width='15%'
+                        src="https://img.icons8.com/ios-filled/50/4a90e2/oracle-logo.png" />
+                </div>
             </div>
         </div>
     )

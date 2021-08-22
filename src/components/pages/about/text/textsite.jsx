@@ -1,6 +1,5 @@
 import React from 'react';
 import Tecnologia from './tecnologias/tec';
-import Conect from './conect/conect';
 import { makeStyles, Typography } from '@material-ui/core';
 import { motion } from 'framer-motion';
 
@@ -62,8 +61,8 @@ const Text = () => {
                     className={classes.background}>
                     <div className={classes.title}>
                         <Typography
-                            initial={{ opacity: 0 }}
-                            animate={{ opacity: 1, transition: { duration: 2, delay: 0.8 } }}
+                            initial={{ opacity: 0,scale:0 }}
+                            animate={{ opacity: 1,scale:1, transition: { duration: 1.2,delay:1} }}
                             component={motion.div}
                             variant='h3'
                             color='secondary'>
@@ -72,8 +71,8 @@ const Text = () => {
                     </div>
                     <div>
                         <Typography
-                            initial={{ opacity: 0 }}
-                            animate={{ opacity: 1, transition: { duration: 1.2, delay: 1 } }}
+                            initial={{ opacity: 0,scale:0 }}
+                            animate={{ opacity: 1,scale:1, transition: { duration: 1.2,delay:1  } }}
                             component={motion.div} color='secondary' variant='h5' >
                             Desenvolvedor Full Stack utilizando das tecnologias no Front End
                             <span className={classes.span}> ReactJS</span> e no Back  End <span className={classes.span}>NodeJS.</span>
@@ -81,8 +80,8 @@ const Text = () => {
                     </div>
                     <div >
                         <Typography
-                            initial={{ opacity: 0 }}
-                            animate={{ opacity: 1, transition: { duration: 2, delay: 1.2 } }}
+                            initial={{ opacity: 0,scale:0 }}
+                            animate={{ opacity: 1,scale:1, transition: { duration: 1.2, delay: 1 } }}
                             component={motion.div}
                             variant='h6'
                             color='secondary'
@@ -93,9 +92,6 @@ const Text = () => {
                         </Typography>
                         <div className={classes.tec}>
                             <Tecnologia />
-                        </div>
-                        <div className={classes.conect}>
-                            <Conect />
                         </div>
                     </div>
                 </motion.div>

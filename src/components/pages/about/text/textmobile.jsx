@@ -1,6 +1,5 @@
 import React from 'react';
 import TecnologiaMobile from './tecnologias/tecMobile';
-import Conect from './conect/conect';
 import { makeStyles, Typography} from '@material-ui/core';
 import { motion } from 'framer-motion';
 
@@ -60,18 +59,18 @@ const TextMobile = () => {
                     className={classes.background}>
                     <div className={classes.title}>
                         <Typography
-                            initial={{ opacity: 0 }}
-                            animate={{ opacity: 1, transition: { duration: 2, delay: 0.8 } }}
+                            initial={{ opacity: 0, scale: 0 }}
+                            animate={{ opacity: 1, scale: 1, transition: { duration: 1.2, delay: 1 } }}
                             component={motion.div}
-                            variant='h3'
+                            variant='h4'
                             color='secondary'>
                             Gabriel S Maciel
                         </Typography>
                     </div>
                     <div>
                         <Typography
-                            initial={{ opacity: 0 }}
-                            animate={{ opacity: 1, transition: { duration: 1.2, delay: 1 } }}
+                           initial={{ opacity: 0, scale: 0 }}
+                           animate={{ opacity: 1, scale: 1, transition: { duration: 1.2, delay: 1 } }}
                             component={motion.div} color='secondary' variant='h5' >
                             Desenvolvedor Full Stack utilizando das tecnologias no Front End
                             <span className={classes.span}> ReactJS</span> e no Back  End <span className={classes.span}>NodeJS.</span>
@@ -79,8 +78,8 @@ const TextMobile = () => {
                     </div>
                     <div >
                         <Typography
-                            initial={{ opacity: 0 }}
-                            animate={{ opacity: 1, transition: { duration: 2, delay: 1.2 } }}
+                            initial={{ opacity: 0, scale: 0 }}
+                            animate={{ opacity: 1, scale: 1, transition: { duration: 1.2, delay: 1 } }}
                             component={motion.div}
                             variant='h6'
                             color='secondary'
@@ -92,9 +91,7 @@ const TextMobile = () => {
                         <div className={classes.tec}>
                             <TecnologiaMobile />
                         </div>
-                        <div className={classes.conect}>
-                            <Conect />
-                        </div>
+    
                     </div>
                 </motion.div>
               
