@@ -22,18 +22,19 @@ const useStyles = makeStyles({
         flexDirection: 'column'
     },
     marginsub: {
-        marginTop: '1%',
+        marginTop: '4%',
 
     },
     a: {
         textDecoration: 'none',
         color: '#4682b4',
-        fontSize: '20px',
+        fontSize: '19px',
         marginTop: '8px',
         display:'flex',
       justifyContent:'center'
     },
     fontsub: {
+        fontSize:'19px',
         color: '#4682b4',
 
     },
@@ -66,7 +67,7 @@ const ProjectsMobile = () => {
                             animate={{ opacity: 1, transition: { duration: 1, delay: 0.7 } }}
                             component={motion.div}
                             className={classes.fontsub}
-                            variant='h6'>
+                            >
                             Veja todos projetos no repositório no Git Hub.
                         </Typography>
                         <motion.a align='center'

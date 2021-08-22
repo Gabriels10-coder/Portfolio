@@ -9,8 +9,8 @@ const useStyles = makeStyles({
     paper: {
         width: 'max-content',
         boxShadow: '0px 3px 3px -2px #1976d2, 0px 3px 4px 0px #1976d2, 0px 1px 8px 0px #1976d2',
-        padding: '25px 20px',
-        marginBottom: '5%'
+        padding: '17px',
+        margin: '5%'
     },
     title: {
         marginBottom: '1%'
@@ -56,7 +56,7 @@ const ServiceMobile = () => {
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1, transition: { delay: 1.6, duration: 1.2 } }}
                             component={motion.div}
-                            variant='h4'
+                            variant='h5'
                             align='center'
                             color='secondary'>
                             Web Sites
@@ -69,8 +69,7 @@ const ServiceMobile = () => {
                             component={motion.div}
                             className={classes.ty}
                             variant='body1' >
-                            Desenvolvo diversos tipos de web sites com ou sem animações,
-                            seu negócio chegará em outro nível.
+                            Estamos na era digital, onde possuir um website para promover seu trabalho é essencial.
                         </Typography>
                     </div>
                     <Box
@@ -92,7 +91,7 @@ const ServiceMobile = () => {
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1, transition: { delay: 1.6, duration: 1 } }}
                         component={motion.div}
-                        variant='h4'
+                        variant='h5'
                         align='center'
                         color='secondary'>
                         Sistemas
@@ -104,8 +103,7 @@ const ServiceMobile = () => {
                             component={motion.div}
                             className={classes.ty}
                             variant='body1' >
-                            Se seu negócio estiver  precisando de um sistema , para agilizar suas vendas,contas,entregas, prezo sempre por um software de qualidade,
-                            atendendo os requisitos do cliente.
+                            Sistemas são um grande facilitador para organizar vendas,estoque, produção e contas.
                         </Typography>
                     </div>
                     <Box display='flex' justifyContent='center'>
