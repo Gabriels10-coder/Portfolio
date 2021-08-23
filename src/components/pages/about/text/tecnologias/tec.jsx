@@ -124,6 +124,14 @@ const Tecnologia = () => {
                     title='ORACLE'
                     width='6%'
                     src="https://img.icons8.com/ios-filled/50/4a90e2/oracle-logo.png" />
+                    <motion.img
+                    initial={{ opacity: 0, scale: 0, rotate: 360 }}
+                    animate={{ opacity: 1, scale: 1, rotate: 0, transition: { duration: 1.2, delay: 1 } }}
+                    className={classes.marginLogo}
+                    alt='SQL SERVER'
+                    title='SQL SERVER'
+                    width='6%'
+                    src="./img/sqlserver.png"/> 
             </div>
         </div>
     )

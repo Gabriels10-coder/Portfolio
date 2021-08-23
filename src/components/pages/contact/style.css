@@ -1,0 +1,22 @@
+.container--title{
+margin: 150px 6.1%;
+
+}
+
+.container--ind--icon{
+    display: flex;
+    flex-direction: row;
+    margin: 15px 10px;
+}
+.style--icone{
+    background-color: blue;
+}
+
+.container--icons{
+    margin: -110px 5.2%;
+    
+
+}
+.margin--text--icone{
+    margin-left: 10px;
+}

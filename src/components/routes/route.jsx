@@ -4,7 +4,7 @@ import Home from '../pages/home/home';
 import About from '../pages/about/aboutmain';
 import ProjectsMain from '../pages/projects/projectmain';
 import Service  from '../pages/services/servicemain';
-import ContactMain from '../pages/contact/contactmain';
+import Contato from '../pages/contact/contato';
 
 const Routes = () => {
     return (
@@ -15,7 +15,7 @@ const Routes = () => {
                     <Route path =  '/about' component={About} />
                     <Route path ='/projects' component={ProjectsMain} />
                     <Route path ='/services' component={Service} />
-                    <Route path ='/contact' component={ContactMain} />
+                    <Route path ='/contact' component={Contato} />
                 </Switch>
             </BrowserRouter>
         </div>
