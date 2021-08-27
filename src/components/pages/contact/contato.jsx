@@ -1,4 +1,4 @@
-import { Button, Typography } from '@material-ui/core';
+import {  Typography } from '@material-ui/core';
 import React from 'react';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';

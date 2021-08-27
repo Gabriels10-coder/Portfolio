@@ -82,31 +82,31 @@ const ItemMobile = (props) => {
                 <motion.img
 
                     initial={{ opacity: 0, scale: 0, rotate: 360 }}
-                    animate={{ opacity: 1, scale: 1, rotate: 0, transition: { duration: 1} }}
+                    animate={{ opacity: 1, scale: 1, rotate: 0, transition: { duration: 1 } }}
                     width='10%'
                     src={props.tec1}
                     alt='img' />
                 <motion.img
                     initial={{ opacity: 0, scale: 0, rotate: 360 }}
-                    animate={{ opacity: 1, scale: 1, rotate: 0, transition: { duration: 1} }}
+                    animate={{ opacity: 1, scale: 1, rotate: 0, transition: { duration: 1 } }}
                     width='10%'
                     src={props.tec2}
                     alt='img' />
                 <motion.img
                     initial={{ opacity: 0, scale: 0, rotate: 360 }}
-                    animate={{ opacity: 1, scale: 1, rotate: 0, transition: { duration: 1} }}
+                    animate={{ opacity: 1, scale: 1, rotate: 0, transition: { duration: 1 } }}
                     width='10%'
                     src={props.tec3}
                     alt='img' />
                 <motion.img
                     initial={{ opacity: 0, scale: 0, rotate: 360 }}
-                    animate={{ opacity: 1, scale: 1, rotate: 0, transition: { duration: 1  } }}
+                    animate={{ opacity: 1, scale: 1, rotate: 0, transition: { duration: 1 } }}
                     width='10%'
                     src={props.tec4}
                     alt='img' />
                 <motion.img
                     initial={{ opacity: 0, scale: 0, rotate: 360 }}
-                    animate={{ opacity: 1, scale: 1, rotate: 0, transition: { duration: 1  } }}
+                    animate={{ opacity: 1, scale: 1, rotate: 0, transition: { duration: 1 } }}
                     width='10%'
                     src={props.tec5}
                     alt='img' />
@@ -124,8 +124,8 @@ const ItemMobile = (props) => {
             </div>
             <div>
                 <Button
-                     initial={{ opacity: 0, scale: 0 }}
-                     animate={{ opacity: 1, scale: 1, transition: { duration: 1 } }}
+                    initial={{ opacity: 0, scale: 0 }}
+                    animate={{ opacity: 1, scale: 1, transition: { duration: 1 } }}
                     whileTap={{ background: 'white' }}
 
                     component={motion.button}
