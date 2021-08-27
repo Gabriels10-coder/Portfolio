@@ -8,9 +8,6 @@ margin: 150px 6.1%;
     flex-direction: row;
     margin: 15px 10px;
 }
-.style--icone{
-    background-color: blue;
-}
 
 .container--icons{
     margin: -110px 5.2%;
@@ -20,3 +17,20 @@ margin: 150px 6.1%;
 .margin--text--icone{
     margin-left: 10px;
 }
+
+.container--contact{
+    display: block;
+    flex-direction: row;
+    max-width: 1900px;
+   
+}
+.container--dowload-cv{
+    width: 50%;
+    margin: -416px 60%;
+}
+    .button-cv{
+        width: 500px;
+        height: 100px;
+        font-size: 100px;
+    
+    }
