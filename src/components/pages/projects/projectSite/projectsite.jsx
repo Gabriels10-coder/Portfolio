@@ -39,8 +39,8 @@ const ProjectsSite = () => {
             
                 <div className={classes.titleWork}>
                     <Typography
-                        initial={{ opacity: 0 }}
-                        animate={{ opacity: 1, transition: { duration: 1, delay: 0.5 } }}
+                        initial={{ opacity: 0,scale:0 }}
+                        animate={{ opacity: 1,scale:1, transition: { duration: 1 } }}
                         component={motion.div}
                         align='center'
                         variant='h3'
@@ -53,16 +53,16 @@ const ProjectsSite = () => {
                         alignItems='center'
                         flexDirection='column'>
                         <Typography
-                            initial={{ opacity: 0 }}
-                            animate={{ opacity: 1, transition: { duration: 1, delay: 0.7 } }}
+                            initial={{ opacity: 0,scale:0 }}
+                            animate={{ opacity: 1,scale:1, transition: { duration: 1 } }}
                             component={motion.div}
                             className={classes.fontsub}
                             variant='h6'>
                             Veja todos projetos no repositório no Git Hub
                         </Typography>
                         <motion.a
-                            initial={{ opacity: 0 }}
-                            animate={{ opacity: 1, transition: { duration: 1, delay: 0.9 } }}
+                            initial={{ opacity: 0,scale:0 }}
+                            animate={{ opacity: 1,scale:1, transition: { duration: 1 } }}
                             className={classes.a}
                             href='https://github.com/Gabriels10-coder'>https://github.com/Gabriels10-coder
                         </motion.a>

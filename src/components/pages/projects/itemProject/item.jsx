@@ -107,7 +107,7 @@ const Item = (props) => {
                 <motion.img
                     initial={{ opacity: 0, scale: 0, rotate: 360 }}
                     animate={{ opacity: 1, scale: 1, rotate: 0, transition: { duration: 1, delay: 0.5 } }}
-                    width='7%'
+                    width='8%'
                     src={props.tec5}
                     alt='img' />
             </div>
